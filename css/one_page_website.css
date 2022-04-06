@@ -160,7 +160,7 @@ section {
     display: inline-block;
     height: auto;
     padding-top: 50px; /* This is the spacer before the main title logo */
-    padding-bottom: 1000px; /* This is the spacer after the main title logo */
+    padding-bottom: 800px; /* This is the spacer after the main title logo */
     color: #fff; 
 }
 
