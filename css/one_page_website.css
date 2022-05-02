@@ -11,7 +11,37 @@ h1, h3 {
 }
 
 
+/*=======================================================
+  GALLERY
+=========================================================*/
 
+
+.container {
+    max-width: 1400px + (25 * 2);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    @media (max-width: $tablet) {
+      padding-left: $margin-touch;
+      padding-right: $margin-touch;
+    }
+
+    
+  }
+  
+
+
+  .text-center{
+    text-align: -webkit-center;
+}
+
+
+
+/*=======================================================
+  RSVP
+=========================================================*/
 @media screen and (max-width: 414px) { 
     #RSVP {
         margin:20%;
@@ -92,10 +122,6 @@ h1, h3 {
         cursor: pointer;
     }
 
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        text-decoration-color: #0000;
-    }
-
 
 
 /*========================================================
@@ -121,3 +147,13 @@ h1, h3 {
     .carousel .carousel-item {
         height: auto;       
     }
+
+    .care-pic{
+        max-height: 550px;
+        width: auto;
+    }
+
+    .carousel-control-next-icon , .carousel-control-prev-icon  {
+        color: #8f8f8f;
+    }
+    
