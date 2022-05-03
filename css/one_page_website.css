@@ -5,7 +5,7 @@
     GENERIC STYLES
 ==========================================================*/
 
-@import url('https://fonts.googleapis.com/css?family=Cursive&display=swap') ;
+@import url('https://fonts.googleapis.com/css?family=Cursive&display=swap');
 
 @font-face {
     font-family: dancing-script;
@@ -13,9 +13,14 @@
 }
 
 
-h1, h3, label, .submit-btn, A, #footer {
+h1,
+h3,
+label,
+.submit-btn,
+A,
+#footer {
     text-align: center;
-    font-family: dancing-script;    
+    font-family: dancing-script;
 }
 
 
@@ -32,103 +37,116 @@ h1, h3, label, .submit-btn, A, #footer {
     padding-right: 25px;
 
     @media (max-width: $tablet) {
-      padding-left: $margin-touch;
-      padding-right: $margin-touch;
+        padding-left: $margin-touch;
+        padding-right: $margin-touch;
     }
 
-    
-  }
-  
 
+}
 
-  .text-center{
+.mw1500 {
+    max-width: 1500px;
+}
+
+.text-center {
     text-align: -webkit-center;
 }
 
+.mb50 {
+    margin-bottom: 50px;
+}
 
+.mt100 {
+    margin-top: 100px;
+}
 
 /*=======================================================
   RSVP
 =========================================================*/
-@media screen and (max-width: 414px) { 
+@media screen and (max-width: 414px) {
     #RSVP {
-        margin:20%;
-    } 
+        margin: 20%;
+    }
 }
 
 
-    
-    #RSVP {
-        max-width: 800px;
-        margin: 50px auto;
-        position: relative;  
-    }
 
-    #RSVP .title {
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-size: 3.2em;
-        line-height: 48px;
-        padding-bottom: 48px;
-        color: #8f8f8f;
-        background-color:#8f8f8f;
-        background: -moz-linear-gradient(left,#fbfbfb  0%,#959595 100%) !important;
-        background: -webkit-linear-gradient(left,#fbfbfb   0%,#959595 100%) !important;
-        background: linear-gradient(to right,#fbfbfb   0%,#959595  100%) !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
-    }
-    
-    .contact-form .form-field {
-        position: relative;
-        margin: 32px 0;
-    }
-    .contact-form .input-text {
-        display: block;
-        width: 100%;
-        height: 36px;
-        border-width: 0 0 2px 0;
-        border-color: #959595;
-        font-size: 18px;
-        line-height: 26px;
-        font-weight: 400;
-    }
-    .contact-form .input-text:focus {
-        outline: none;
-    }
-    .contact-form .input-text:focus + .label,
-    .contact-form .input-text.not-empty + .label {
-        -webkit-transform: translateY(-24px);
-                transform: translateY(-24px);
-    }
-    .contact-form .label {
-        position: absolute;
-        left: 20px;
-        bottom: 11px;
-        font-size: 18px;
-        line-height: 26px;
-        font-weight: 400;
-        color: #959595;
-        cursor: text;
-        transition: -webkit-transform .2s ease-in-out;
-        transition: transform .2s ease-in-out;
-        transition: transform .2s ease-in-out, 
+#RSVP {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#RSVP .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+    color: #8f8f8f;
+    background-color: #8f8f8f;
+    background: -moz-linear-gradient(left, #fbfbfb 0%, #959595 100%) !important;
+    background: -webkit-linear-gradient(left, #fbfbfb 0%, #959595 100%) !important;
+    background: linear-gradient(to right, #fbfbfb 0%, #959595 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #959595;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #959595;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,
         -webkit-transform .2s ease-in-out;
-    }
-    .contact-form .submit-btn {
-        display: inline-block;
-        background-color: #000;
-        background-image: linear-gradient(125deg,#fbfbfb,#959595);
-        color: #fff;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        padding: 8px 16px;
-        border: none;
-        width:200px;
-        cursor: pointer;
-    }
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg, #fbfbfb, #959595);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
 
 
 
@@ -140,9 +158,9 @@ h1, h3, label, .submit-btn, A, #footer {
 }
 
 #footer {
-    
+
     color: #000;
-    text-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 20px 50px 20px 50px;
     text-align: center;
 }
@@ -152,16 +170,17 @@ h1, h3, label, .submit-btn, A, #footer {
 }
 
 @media screen and (max-width: 414px) {}
-    .carousel .carousel-item {
-        height: auto;       
-    }
 
-    .care-pic{
-        max-height: 550px;
-        width: auto;
-    }
+.carousel .carousel-item {
+    height: auto;
+}
 
-    .carousel-control-next-icon , .carousel-control-prev-icon  {
-        color: #8f8f8f;
-    }
-    
+.care-pic {
+    max-height: 550px;
+    width: auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: #8f8f8f;
+}
