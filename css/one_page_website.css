@@ -4,10 +4,18 @@
 ----------------------------------------------------------
     GENERIC STYLES
 ==========================================================*/
-h1, h3 {
+
+@import url('https://fonts.googleapis.com/css?family=Cursive&display=swap') ;
+
+@font-face {
+    font-family: dancing-script;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+
+h1, h3, label, .submit-btn, A, #footer {
     text-align: center;
-    font-family: cursive;
-    font-style: Lucida Handwriting;
+    font-family: dancing-script;    
 }
 
 
